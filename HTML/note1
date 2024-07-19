@@ -1,0 +1,169 @@
+Définir l’encodage des caractères: <meta charset="UTF-8">
+Définir les mots clés sur les moteurs de recherche: <meta name="keywords" content="HTML, CSS, JavaScript">
+Ajouter une description pour la page web: <meta name="description" content="Free Web tutorials">
+Définir l’auteur d’une page: <meta name="author" content="John Doe">
+Actualiser le document toutes les 30 secondes: <meta http-equiv="refresh" content="30">
+Définir la fenêtre d'affichage pour que le site web s’adapte à tous les appareils : <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<strong> : Texte important, généralement affiché en gras.
+<em> : Texte emphatique, généralement affiché en italique. Il permet de mettre un texte en évidence. 
+<mark>: Définit un texte qui doit être marqué ou mis en surbrillance.
+<b> : Texte en gras (sans importance supplémentaire).
+<i> : Texte en italique (sans importance supplémentaire).
+<u> : Texte souligné.
+<del>: Texte barré.
+
+    Liste personnalisée:
+    Elle consiste à définir le type de numérotation à utiliser, en
+    utilisant l’attribut « type ». Par exemple: <ol type="A">
+    Parmi les valeurs que peut prendre cet attribut, on a:
+    • a : lettres minuscules
+    • A : lettres majuscules
+    • i : chiffres romains minuscules
+    • I : chiffres romains majuscules
+    • 1: valeur numérique.    
+
+
+_self Valeur par défaut : la page cible s’ouvre dans le même emplacement (cadre ou « frame ») que là où l’utilisateur a cliqué
+
+_blank : La page cible s’ouvre dans un nouvel onglet ou dans une nouvelle fenêtre
+
+_parent : La page cible s’ouvre dans le cadre (frame) de niveau
+immédiatement supérieur par rapport à l’emplacement du lien
+
+_top La page cible s’ouvre dans le corps de la fenêtre Nom du cadre
+
+(frame) : Ouverture de la page cible dans le cadre portant le nom cité (en
+valeur de l’attribut name)
+    
+
+ Autres attributs pour les images:
+
+border : Ajoute des bordures autour de l’image. Sa valeur en pixel et correspond à l’épaisseur.
+
+align :Alignement par rapport au texte autour de l’image. Ses valeurs : left, right, center, top, bottom ou middle.
+
+hspace : Espacement à droite et à gauche par rapport au texte autour de l’image.
+
+vspace : Espacement en haut et en bas par rapport au texte autour de l’image. 
+
+
+La balise <map> en HTML est utilisée pour définir une carte d'image.
+Une carte d'image est une image avec des zones cliquables, chacune d'elles
+pouvant agir comme un lien vers une URL spécifique.
+Les balises <area> à l'intérieur de la balise <map> spécifient les zones cliquables
+(en pixels).
+
+Attributs de <area>:
+shape : Détermine la forme de la zone cliquable. Les valeurs possibles sont :
+rect (rectangle), circle (cercle), poly (polygone) et default (toute l'image).
+coords : Définit les coordonnées de la zone cliquable en fonction de la forme
+choisie:
+• rect : coords="x1, y1, x2, y2" (haut gauche et bas droit)
+• circle : coords="x, y, r" (centre et rayon)
+• poly : coords="x1, y1, x2, y2, x3, y3,..., xn, yn" (liste des points)
+href : Lien vers lequel la zone cliquable redirige.
+
+
+Les fichiers audio:
+Pour insérer un fichier audio dans notre page web, nous utiliserons la balise
+<audio> avec les attributs suivant:
+• src : pour spécifier le chemin du fichier audio.
+• controls : pour faire apparaitre les contrôles fournis par le navigateur (un
+bouton de lecture / arrêt, un bouton pour choisir le niveau sonore, etc.)
+• autoplay : pour démarrer la lecture automatiquement.
+• loop : pour répéter la lecture indéfiniment.
+
+
+Les attributs de <iframe>:
+Les attributs généralement précisés lors de l’utilisation de l’élément <iframe>
+sont les suivants :
+
+1) src : Indique l'adresse du document à intégrer (URL).
+2) width et height : Spécifient la largeur et la hauteur du cadre.
+3) frameborder : Définit la largeur de la bordure du cadre (0 pour aucune bordure).
+4)allow : Permet de spécifier quelles fonctionnalités de l'iframe sont activées ou désactivées, renforçant ainsi la sécurité du code.
+5) sandbox : Limite les permissions de l'iframe pour renforcer la sécurité du code.
+
+Les formulaires:
+La saisie semi-automatique:
+L‘attribut « autocomplete » spécifie si la saisie semi-automatique doit être activée
+ou désactivée pour un formulaire.
+Lorsque la saisie semi-automatique est activée, le navigateur complète
+automatiquement les valeurs en fonction des valeurs que l'utilisateur a saisies auparavant.
+<form action="/action_page.php" method ="post" autocomplete="on">
+
+Dateheure-locale:
+<input type="datetime-local" > spécifie un champ de saisie de date et d'heure,
+sans fuseau horaire.
+
+Type d'entrée Image:
+<input type="image" src ="link" > définit une image comme un bouton d'envoi.
+
+(attribut de l'input)
+pattern : Spécifie une expression régulière qui doit correspondre pour que le contenu soit
+valide.
+
+
+L'élément <button>:
+Permet de définir un bouton cliquable avec un contenu riche (texte, images, etc.),
+en spécifiant l’attribut « type » à : button, submit ou reset.
+La balise <span> peut être utilisée à l'intérieur de boutons pour appliquer des
+styles spécifiques au texte sans affecter les autres éléments du bouton, comme les
+images.
+
+
+L'élément <datalist>:
+Il permet de fournir une liste prédéfinie pour un
+<input>.
+Les utilisateurs voient une liste déroulante des
+options disponibles au fur et à mesure qu'ils
+saisissent des données.
+L'attribut « list » de l'élément <input> doit faire
+référence à l'attribut « id » de l'élément
+<datalist>.
+
+
+HTML comporte plusieurs éléments sémantiques qui définissent les différentes
+parties d'une page Web :
+• <header> - Définit l'en-tête d'un document ou d'une section.
+• <nav> - Définit un ensemble de liens de navigation.
+• <section> - Définit une section au sein d'un document.
+• <article> - Définit un contenu indépendant et autonome.
+• <aside> - Définit un contenu en dehors du contenu principal.
+• <footer> - Définit le pied de page d'un document ou d'une section.
+• <details> - Définit des détails supplémentaires que l'utilisateur peut afficher
+ou masquer.
+• <summary> - Définit un titre pour l'élément <details>.
+• <main> - Définit le contenu principal d'un document.
+
+
+<figure> : Contenu illustratif comme des images, des diagrammes, ou des
+graphiques, souvent avec une légende.
+<figcaption> : Définit une légende pour <figure>.
+
+
+<progress>:
+La balise <progress> représente la progression d'une tâche longue ou continue.
+Elle affiche une barre de progression qui indique visuellement combien de la
+tâche a été complété. Parmi ses attributs on retrouve:
+◦ « value » : Indique la progression actuelle.
+◦ « max » : Indique la valeur maximale de la progression (par défaut 1).
+Utilisée pour indiquer la progression d'une tâche comme un téléchargement ou
+une installation.
+La barre de progression se remplit au fur et à mesure que la tâche progresse.
+<progress>:
+Le texte à l'intérieur de la balise (50% dans cet exemple) est affiché par défaut
+dans les navigateurs qui ne supportent pas la balise <progress>.
+
+
+
+<meter>:
+La balise <meter> représente une valeur scalaire dans une plage connue. Elle
+peut être utilisée pour indiquer des niveaux ou tout autre type de mesure dans
+une plage définie. Ses principaux attributs sont:
+◦ value : La valeur actuelle de la mesure.
+◦ min et max : La valeur minimale(par défaut 0) et maximale de la plage.
+◦ low : Le seuil où les valeurs sont considérées comme basses.
+◦ high : Le seuil où les valeurs sont considérées comme élevées.
+◦ optimum : La valeur optimale dans la plage.

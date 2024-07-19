@@ -1,0 +1,74 @@
+1) Commentaire : Ctrl + : ( <!-- un commentaire --> )
+2) User agent stylesheet (donne des style pour différencier les elements) 
+3) Titres principales : h1 -> h6 (plus grand au plus petit)
+4) Les retours chariot et les espaces sont ingores.
+5) Paragraph element : <p></p> (block element)
+6) Il existe des attributs global qui s'applique sur tous les elements et d'autres spécifiques tq pour les balise img/a...
+7) On peut appliquer du style sans le css : 
+    b = bold (en gras) 
+    strong = en gras (important text)
+    i = italique et em = emphasized (important)
+    mark = surligner (Highlighted Text)
+    u = underline (souligner)
+    small = Smaller Text 
+    del = Deleted Text (barrer)
+    ins = Inserted Text (ajouter un truc new)
+    sub = Subscript (indice)
+    sup = Superscript (exposant)
+8) Les liens: avec la balise <a href=""></a>(inline element) 
+9) L'attribut "target" : = blank (autre onglet)
+                         = self (meme onglet)
+10) Pour ajouter une image : <img src="" alt="">       
+11) Les listes : ul = unordered list 
+                 li = list items
+                 ol = ordered list
+    Attributs : reversed(ol) = inverse l'ordre 
+                start = par ou commancer (start="100" commancer a partir de 100)
+                type = type of ordering (type="A" l'ordre A puis B...)  
+                value(li) = ordre a partir de la valeur de cette attribut (value="50" copmmance de 50 puis 51...)
+    Listes dl : dl = description list 
+                dt = term 
+                dd = description term 
+12) Les tables : avec <table></table>
+         thead
+         tbody
+         tfoot
+         tr = Table row (lignes)
+         td = Table data cell (colonnes)
+         th = Table header cell (en gras)
+         colspan = coller plusieurs colonnes
+         rowspan = coller plusieurs lignes
+13) Si on veut appliquer du style sur un seul mot par exemple on utilise la balise <span></span> (inline element)    
+14) input inline element 
+    l'attribut required = champs obligatoires 
+    l'attribut value = ancienne valeur  
+    l'attribut action = le fichier destinataire
+    method : get = affiche les infos 
+             post = affiche pas les infos 
+    hidden (Input) on le voit pas
+    readonly = on peut pas l'a modifier 
+    disabled = fixe (il sera pas envoye)
+    autofocus = premiére valeur a saisir
+    sur le input radio on utilise l'attribut "checked" pour initialiser la valeur
+    Pour lier l'input et le label on utilise les attributs "id" et "for" 
+    Novalidate = il envoi le form directement sans validation  
+
+
+
+  compilation (3)
+  Interface homme machine (3) 
+  Genie logiciel (3)
+  Systeme d'exploitation 2 (3)
+  Programmation lineaire    (2)               
+  Probabilites et statistique (2)
+  Economie numerique et veille strategique (1)
+
+
+  CPI : Conduite de projets informatiques
+  RMSE : Reseaux, mobilité et Systemes embarqués 
+  SI : Systemes informatiques
+  ISI : Ingénierie des systemes d'informations
+  S2I : 
+
+  
+

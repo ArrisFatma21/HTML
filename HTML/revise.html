@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premiére page web</title>
+    <meta name="description" content="C'est ma premiére page web...">
+    <mata name="author" content="l'Auteur">
+</head>
+<body>
+    
+    <p id="ancre">Hello World !</p>
+    <p>Voir la section lien : <a href="#ancre1">Links !</a></p>
+    <hr>
+    <!-- Les titres et les differens niveaux  -->
+    <h1>Définition HTML</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid saepe ducimus delectus deserunt, sapiente illo omnis et labore cupiditate veniam!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quis minus perspiciatis. Nesciunt, nulla amet harum quaerat quam sunt impedit.</p>
+    <h2>Les titres HTML</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam distinctio nostrum libero! Nam, optio blanditiis.</p>
+    <h3>Titre de niveau 3</h3>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <h4>Titre de niveau 4</h4>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <h5>Titre de niveau 5</h5>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <h6>Titre de niveau 6</h6>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <hr>
+    <!-- <hr> pour avoir une ligne horizontal -->
+    <!-- La balise <br> pour les sauts de lignes  -->
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores incidunt fugiat a distinctio vitae? Beatae eius voluptate laboriosam quia iusto! <br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quo a suscipit? Doloremque, illum quam nam ex voluptatum aliquid necessitatibus sapiente hic omnis placeat, consequuntur tenetur labore, sit asperiores. Ipsam! <br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    <hr>
+    <!-- la balise pre  -->
+    <pre>
+        La balise (pre) est utilisée pour afficher du 
+        texte tel que ecrits avec les espaces,
+        les sauts de lignes...Pour ecrire de code 
+    </pre>
+    <!-- Balises de formattage de texte dans la note1 -->
+
+    <!-- Les listes ordonnées et non-ordonnées -->
+     
+     <h2>Recette :</h2>
+     <h3>Ingrédients</h3>
+     <ul>
+        <li>Elément 1</li>
+        <li>Elément 2</li>
+        <li>Elément 3</li>
+        <li>Elément 4</li>
+        <li>Elément 5</li>
+     </ul>
+     <h3>Préparation</h3>
+     <ol type="1">
+        <li>Etape 1</li>
+        <li>Etape 2</li>
+        <li value="23">Etape 3</li>
+        <li>Etape 4</li>
+     </ol>
+     <ol reversed start="2">
+        <li>Etape 1</li>
+        <li>Etape 2</li>
+        <li>Etape 3</li>
+        <li>Etape 4</li>
+     </ol>
+     <!-- listes de définition/description  -->
+      <dl>
+        <dt>HTML</dt>
+        <dd>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat consectetur voluptate velit perspiciatis aut aliquam?</dd>
+      </dl>
+     <h2>Les listes imbriquées</h2>
+     <ol>
+        <li>Introduction</li>
+        <li>Partie 1
+            <ul>
+                <li>Définitions</li>
+                <li>Auteurs</li>
+                <li>Exemples</li>
+            </ul>
+        </li>
+        <li>Partie 2</li>
+        <li>Conclusion</li>
+     </ol>
+     <hr>
+     <h2>Les tableaux :</h2>
+     <!-- Les tableaux  -->
+      <table border="1">
+        <caption>Tableau avec bordures</caption>
+     <thead>
+        <tr>
+            <th>Nom</th>
+            <th>Age</th>
+            <th>Ville</th>
+        </tr>
+     </thead>
+     <tbody>
+        <tr>
+            <td>Jean</td>
+            <td>30</td>
+            <td rowspan="2">Paris</td>
+        </tr>
+        <tr>
+            <td>Marie</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td>Paul</td>
+            <td>35</td>
+            <td>Marseille</td>
+        </tr>
+     </tbody>
+     <tfoot>
+        <tr>
+            <td colspan="3">Total = 3 personnes</td>
+        </tr>
+     </tfoot>
+     </table>
+     <h3>Exercice pratique (tables) :</h3>
+     <table border="1">
+        <caption>Informations personnelles</caption>
+        <thead>
+            <tr>
+                <th>Nom</th>
+                <th>Prénom 1</th>
+                <th>Prénom 2</th>
+                <th>Prénom 3</th>
+                <th>Adresse mail 1</th>
+                <th>Adresse mail 2</th>
+                <th>Inscrit ?</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Martin</td>
+                <td>Jean</td>
+                <td colspan="2">Jacques</td>
+                <td colspan="2">jean.martin@exemple.com</td>
+                <td rowspan="2">Oui</td>
+            </tr>
+            <tr>
+                <td>Durand</td>
+                <td colspan="3">Sophie</td>
+                <td>sophie.durand@exemple.com</td>
+                <td>sdurand@gmail.com</td>
+            </tr>
+        </tbody>
+     </table> <br>
+     <hr>
+     <!-- Les liens  -->
+      <h2 id="ancre1">Les liens :</h2>
+      <p>Visit <a href="https://fr.wikipedia.org/" target="_blank">wikipedia</a> !</p>
+      <p>Voir le premier paragraphe : <a href="#ancre">Allez en haut de la page !</a></p>
+      <hr>
+      <!-- Les balises de multimédia -->
+       <h2>Les balises de multimédia :</h2>
+       <img src="images/image1.png" alt="Nike Dunk-SB" width="300" height="300" title="Nike Dunk-SB" border="3"> <br>
+       <!-- Exercice pratique sur les images -->
+        <p>Une image comme un lien genre si on clique dessus au sera a la page index.html</p>
+        <a href="index.html">
+            <img src="images/HOME/image2.png" alt="Text Alternatif" width="300">
+        </a>
+        <hr>
+        <!-- Les fichies audio -->
+         <h2>Les fichiers audio :</h2>
+         <audio src="aud1.mp3" controls>
+            Erreur de chargement de l'audio !
+         </audio>
+         <hr>
+         <!-- Les vidéos -->
+          <h2>Les vidéos :</h2>
+          <video src="video/vidéo1.mp4" width="400" controls autoplay loop poster="images/image1.png">
+            Votre navigateur ne supporte pas la balise vidéo
+          </video>
+          <!-- L'élément iframe  -->
+           <h2>Iframe :</h2>
+           <p>Integrer une vidéo YouTube :</p>
+           <iframe width="510" height="315" src="https://www.youtube.com/embed/1s-WLmproNM?si=dWTOp9rjZO9Ko8T4" title="YouTube video player" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+           <p>Integrer une page web :</p>
+           <iframe src="index.html" frameborder="10" width="600" height="400"></iframe>
+
+           <p>Ouvrire un lien externe dans une iframe, on utilise l'attribut "target" du lien. Cet attribut doit etre configuré pour faire référence à l'attibut "name" défini dans l'élément "iframe" :</p>
+           <iframe src="test.html" frameborder="10" name="iframe_a" height="400" width="500"></iframe>
+           <a href="https://fr.wikipedia.org/" target="iframe_a">wikipedia</a>
+           <hr>
+           <!-- Les formulaires  -->
+            <h2><u>Les formulaires :</u></h2>
+            <form action="">
+                <label for="fn">First name :</label> 
+                <input type="text" name="fname" id="fn" value="ARRIS"><br><br>
+                <label for="ln">Last name :</label>
+                <input type="text" name="lname" id="ln"> <br><br>
+                <label for="pw">Mot de passe :</label>
+                <input type="password" name="password" id="pw"> <br><br>
+                <label for="">Prendre un langage :</label>
+                <input type="radio" name="lang" id="html" value="html">
+                <label for="html">HTML</label> 
+                <input type="radio" name="lang" id="css" value="css">
+                <label for="css">CSS</label>
+                <input type="radio" name="lang" id="js" value="JavaScript">
+                <label for="js">JavaScript</label> <br><br>
+                <label for="">Checkbox :</label>
+                <input type="checkbox" name="veh1" id="veh1" value="bike"> 
+                <label for="veh1">I have a bike</label> 
+                <input type="checkbox" name="veh2" id="veh2" value="car" checked>
+                <label for="veh2">I have a car</label>
+                <input type="checkbox" name="veh3" id="veh3" value="boat">
+                <label for="veh3">I heve a boat</label> <br><br>
+                <label for="col">Sélèctionner une couleur :</label>
+                <input type="color" name="color" id="col"> <br><br>
+                <label for="date">Sélèctionner une date :</label>
+                <input type="date" name="date" id="date" min="1997-12-31" max="2000-01-02"> <br><br>
+                <label for="dt">Date and time :</label>
+                <input type="datetime-local" name="dt" id="dt"> <br><br>
+                <label for="mail">Email :</label>
+                <input type="email" name="mail" id="mail"><br><br>
+                <label for="file">Select a file :</label>
+                <input type="file" name="file" id="file"> <br><br>
+                <label for="num">Quantity :</label>
+                <input type="number" name="number" id="num" min="10" max="50" value="25"> <br><br>
+                <label for="ran">Volume (between 0 and 50) :</label>
+                <input type="range" name="vol" id="ran" min="0" max="50"><br><br>
+                <label for="car">Choose a car :</label>
+                <select name="car" id="car">
+                    <option value="fiat">Fiat</option>
+                    <option value="audi">Audi</option>
+                    <option value="mercedes" selected>Mercedes</option>
+                </select> <br><br>
+                <label for="fruits">Fruits :</label>
+                <select name="fruits" id="fruits">
+                    <optgroup label="Agrumes">
+                        <option value="orange">Orange</option>
+                        <option value="citron">Citron</option>
+                        <option value="pamplemouse">Pamplemouse</option>
+                    </optgroup>
+                    <optgroup label="baies">
+                        <option value="faise">Fraise</option>
+                        <option value="framboise">Framboise</option>
+                        <option value="myrtille">Myrtille</option>
+                    </optgroup>
+                    <optgroup label="fruits tropicaux">
+                        <option value="mangue">Mangue</option>
+                        <option value="ananas">Ananas</option>
+                        <option value="banane">Banane</option>
+                    </optgroup>
+                </select> <br><br>
+                <label for="text">Zone de taxte :</label> <br>
+                <textarea name="text" id="text" placeholder="your message..." cols="30" rows="7"></textarea> <br><br>
+
+                <input type="image" src="images/image1.png" width="50" height="50" alt="submit">
+                <input type="button" value="Valider">
+                <input type="submit" name="submit" value="soumettre">
+                <input type="reset" name="reset" >
+                <button type="button">
+                    <img src="images/image1.png" alt="Icone" width="30" height="30" style="vertical-align: middle;">
+                    <span style="vertical-align: middle;">Valider</span>
+                </button>
+            </form>
+            <!-- exercice pratique -->
+             <h2><u>Formulaire de saisie :</u></h2>
+             <form action="">
+                <fieldset>
+                    <legend>Informations</legend>
+                <label for="nom1">Nom d'utilisateur :</label>
+                <input type="text" name="nom1" id="nom1" placeholder="veuillez saisir votre nom"> <br><br>
+                <label for="mail1">Email :</label>
+                <input type="email" name="mail1" id="mail1" required placeholder="abc@exemple.com"> <br><br>
+                <label for="pw1">Mot de passe :</label>
+                <input type="password" name="password1" id="pw1" maxlength="15"> <br><br>
+                <label for="dn1">Date de naissance :</label>
+                <input type="date" name="dn1" id="dn1"> <br><br>
+                <label for="file1">Téléverser un fichier :</label>
+                <input type="file" name="file1" id="file1"> <br><br>
+                <label for="month">Séléctionner un mois :</label>
+                <input type="month" name="month" id="month"> <br><br>
+                <label for="qte">Quantité :</label>
+                <input type="number" name="qte" id="qte"> <br><br>
+                <label for="rech">Recherche :</label>
+                <input type="search" name="rech" id="rech" disabled placeholder="No search !"> <br><br>
+                <label for="tel">Téléphone :</label>
+                <input type="tel" name="tel" id="tel"> <br><br>
+                <label for="heure">Heure de rendez-vous :</label>
+                <input type="time" name="heure" id="heure"> <br><br>
+                <label for="site">Site Web :</label>
+                <input type="url" name="site" id="site"> <br><br>
+                <label for="sem">Semaine :</label>
+                <input type="week" name="sem" id="sem"> <br><br>
+                <input type="submit" value="Envoyer">
+                <input type="reset" value="Reset">
+            </fieldset>
+             </form>
+             <form action="">
+                <fieldset>
+                    <legend>DataList</legend>
+                    <input list="browsers" name="browser">
+                    <datalist id="browsers">
+                        <option value="Edge">Edge</option>
+                        <option value="FireFox">FireFox</option>
+                        <option value="Chrome">Chrome</option>
+                        <option value="Safari">Safari</option>
+                        <option value="Opera">Opera</option>
+                    </datalist>
+                </fieldset>
+             </form> <br> 
+             <details>
+                <summary>HTML</summary>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam magni nisi et modi illo. Magni deleniti facere fugiat ratione dolor sed architecto, veritatis velit, eos optio corrupti, repellendus culpa labore?
+             </details>
+             <hr>
+             <h2><u>L'élément progress :</u></h2>
+             <label for="prog">Progression du télèchergement :</label>
+             <progress id="prog" value="40" max="100">40%</progress>
+             <hr>
+             <h2><u>L'élément meter :</u></h2>
+             <label for="disk_c">Disk usage C :</label>
+             <meter value="2" id="disk_c" max="10">2 out of 10</meter> <br>
+             <label for="disk_d">Disk usage D :</label>
+             <meter value="0.6" id="disk_c" max="10">60%</meter>
+
+
+
+</body>
+</html> 
